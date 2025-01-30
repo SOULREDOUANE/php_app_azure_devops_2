@@ -1,0 +1,4 @@
+**/azure-pipelines.yaml
+**/composer.lock
+**/composer.json
+**/tests
