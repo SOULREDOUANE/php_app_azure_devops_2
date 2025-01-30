@@ -1,4 +1,6 @@
-**/azure-pipelines.yaml
+**/azure-pipelines.yml
+**/Dockerfile
+**/apache.conf
 **/composer.lock
 **/composer.json
 **/tests
