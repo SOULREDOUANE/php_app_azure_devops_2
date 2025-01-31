@@ -11,6 +11,12 @@ variables:
   repositoryName: jesaregistry/jesa-php
   phpVersion: 8.2.27
 
+services:
+  mysql:
+    image: mysql:8.0
+    env:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: mydatabase
 
 steps:
 - script: |
